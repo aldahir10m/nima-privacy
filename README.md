@@ -1,0 +1,2 @@
+# nima-privacy
+Privacy Policy 
