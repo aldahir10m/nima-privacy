@@ -277,57 +277,55 @@
       <p>
         We use a small number of trusted third parties to operate the App. They
         process data only on our behalf and only for the purposes described here.
+        We describe these providers by category rather than by name, and the
+        specific providers in each category may change over time.
       </p>
       <div class="table-scroll">
         <table>
           <thead>
             <tr>
-              <th>Provider</th>
+              <th>Type of provider</th>
               <th>Purpose</th>
               <th>Data involved</th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td><strong>Supabase</strong></td>
-              <td>Backend, database, authentication, and sync (the United States).</td>
+              <td><strong>Cloud hosting, database &amp; authentication</strong></td>
+              <td>
+                Operating our backend, storing your data, authenticating you, and
+                syncing across your devices (United States).
+              </td>
               <td>Email, financial data, user identifier.</td>
             </tr>
             <tr>
-              <td><strong>RevenueCat</strong></td>
-              <td>Subscription and purchase management.</td>
-              <td>User identifier, subscription status.</td>
-            </tr>
-            <tr>
-              <td><strong>Apple / Google</strong></td>
-              <td>Account sign-in and in-app purchases.</td>
+              <td><strong>Account sign-in &amp; in-app purchases</strong></td>
+              <td>Letting you sign in and make purchases through the app platform.</td>
               <td>Email, purchase records.</td>
             </tr>
             <tr>
-              <td><strong>PostHog</strong></td>
-              <td>Product analytics.</td>
+              <td><strong>Subscription management</strong></td>
+              <td>Managing your subscription and free trial.</td>
+              <td>User identifier, subscription status.</td>
+            </tr>
+            <tr>
+              <td><strong>Product analytics</strong></td>
+              <td>Understanding how features are used to improve the App.</td>
               <td>Usage events, user identifier.</td>
             </tr>
             <tr>
-              <td><strong>Sentry</strong></td>
-              <td>Crash and performance diagnostics.</td>
+              <td><strong>Crash &amp; performance diagnostics</strong></td>
+              <td>Detecting, diagnosing, and fixing crashes and performance problems.</td>
               <td>Diagnostic data.</td>
             </tr>
             <tr>
-              <td><strong>OpenAI</strong></td>
+              <td><strong>AI voice &amp; image processing</strong></td>
               <td>
-                Speech-to-text for voice entry (used only as a fallback when
-                on-device transcription is unavailable).
+                Transcribing voice entries and extracting a draft transaction from
+                a voice transcript or receipt image (used only as a fallback when
+                on-device processing is unavailable).
               </td>
-              <td>The audio of a single voice entry, transiently.</td>
-            </tr>
-            <tr>
-              <td><strong>Anthropic</strong></td>
-              <td>
-                Extracting a structured draft transaction from a voice transcript
-                or receipt image.
-              </td>
-              <td>A single transcript or image, transiently.</td>
+              <td>A single recording, image, or transcript, transiently.</td>
             </tr>
           </tbody>
         </table>
@@ -358,7 +356,7 @@
 
       <h2>Data storage, security, and retention</h2>
       <p>
-        Your data is stored on Supabase infrastructure (the United States) and is
+        Your data is stored on secure cloud infrastructure located in the United States and is
         isolated to your account through row-level security, so it is not
         accessible to other users. We retain your data for as long as your account
         is active.
@@ -428,3 +426,4 @@
     </main>
   </body>
 </html>
+
